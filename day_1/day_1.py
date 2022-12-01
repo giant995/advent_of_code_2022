@@ -10,7 +10,8 @@ def main():
                 continue
             accumulator += int(line)
 
-    print(max(elf_calories))
+    print(f"Part 1: the elf with most snacks carries {max(elf_calories)} calories")
+    print(f"Part 2: the top three elves with most snacks carry {sum(sorted(elf_calories, reverse=True)[:3])} calories")
 
 
 if __name__ == "__main__":

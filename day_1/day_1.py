@@ -1,4 +1,3 @@
-# declare main
 def main():
     elf_calories = []
     with open('input.txt', 'r') as f:

@@ -21,9 +21,5 @@ def main():
     print(f"Part 2: there are {overlapping_pairs} overlapping pairs")
 
 
-def range_subset(range1, range2):
-    return all(e in range2 for e in range1) or all(e in range1 for e in range2)
-
-
 if __name__ == "__main__":
     main()

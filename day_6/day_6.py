@@ -1,5 +1,3 @@
-
-
 def main():
     # part 1
     char_counter = get_marker_count(4)
